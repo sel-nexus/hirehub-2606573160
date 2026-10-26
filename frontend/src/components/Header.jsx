@@ -43,5 +43,5 @@ export default function Header({ authenticated = false, onLogout }) {
 
 Header.propTypes = {
   authenticated: PropTypes.bool,
-  onLogout: PropTypes.func,
+  onLogout: PropTypes.func.isRequired,
 };

@@ -99,6 +99,17 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .next-step .button { width: 100%; }
   .route-placeholder { width: calc(100% - 36px); padding-top: 56px; }
   .apply-page { min-height: calc(100vh - 60px); padding: 28px 18px 44px; }
+  .admin-access { min-height: calc(100vh - 60px); padding: 42px 18px; }
+  .admin-login-card { padding: 25px 20px; }
+  .admin-page { width: calc(100% - 36px); padding-top: 35px; }
+  .summary-grid { grid-template-columns: 1fr; gap: 12px; }
+  .summary-card { min-height: 90px; }
+  .summary-card strong { font-size: 26px; }
+  .table-scroll { overflow-x: auto; }
+  .submissions-table-card table { min-width: 900px; }
+  .submission-editor { padding: 24px 20px; }
+  .editor-actions { flex-direction: column; }
+  .editor-actions .button { width: 100%; }
   .apply-card { padding: 20px; }
   .apply-card h1 { font-size: 27px; }
 }
