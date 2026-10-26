@@ -24,3 +24,9 @@ test_report.yaml
 # Graph extraction caches only; keep graphify-out/graph.json tracked
 graphify-out/cache/
 graphify-out/cost.json
+graphify-out/.graphify_analysis.json
+graphify-out/.graphify_labels.json
+graphify-out/.graphify_python
+graphify-out/.graphify_root
+graphify-out/GRAPH_REPORT.md
+graphify-out/graph.html

@@ -1,11 +1,61 @@
 {
   "nodes": [
     {
+      "id": "frontend_e2e_admin_access_spec",
+      "label": "admin-access.spec.ts",
+      "file_type": "code",
+      "source_file": "frontend/e2e/admin-access.spec.ts",
+      "source_location": "L1",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "on",
+            "receiver_type": "Page",
+            "lang": "typescript",
+            "line": "L46"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_e2e_admin_access_spec_browsererrors",
+      "label": "browserErrors",
+      "file_type": "code",
+      "source_file": "frontend/e2e/admin-access.spec.ts",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_e2e_admin_submissions_spec",
+      "label": "admin-submissions.spec.ts",
+      "file_type": "code",
+      "source_file": "frontend/e2e/admin-submissions.spec.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_e2e_admin_submissions_spec_browsererrors",
+      "label": "browserErrors",
+      "file_type": "code",
+      "source_file": "frontend/e2e/admin-submissions.spec.ts",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
       "id": "frontend_e2e_apply_spec",
       "label": "apply.spec.ts",
       "file_type": "code",
       "source_file": "frontend/e2e/apply.spec.ts",
       "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_e2e_apply_spec_browsererrors",
+      "label": "browserErrors",
+      "file_type": "code",
+      "source_file": "frontend/e2e/apply.spec.ts",
+      "source_location": "L3",
       "_origin": "ast"
     },
     {
@@ -16,6 +66,14 @@
       "source_location": "L1",
       "_origin": "ast",
       "community": 5
+    },
+    {
+      "id": "frontend_e2e_landing_spec_browsererrors",
+      "label": "browserErrors",
+      "file_type": "code",
+      "source_file": "frontend/e2e/landing.spec.ts",
+      "source_location": "L3",
+      "_origin": "ast"
     },
     {
       "id": "frontend_package",
@@ -360,14 +418,75 @@
       "community": 0
     },
     {
+      "id": "frontend_src_app_approutes",
+      "label": "AppRoutes()",
+      "file_type": "code",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L10",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_approutes_handlelogout",
+      "label": "handleLogout()",
+      "file_type": "code",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L16",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
       "id": "frontend_src_app_app",
       "label": "App()",
       "file_type": "code",
       "source_file": "frontend/src/App.jsx",
-      "source_location": "L6",
+      "source_location": "L48",
       "_callable": true,
       "_origin": "ast",
       "community": 0
+    },
+    {
+      "id": "frontend_src_app_test",
+      "label": "App.test.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/App.test.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_test_renderapplication",
+      "label": "renderApplication()",
+      "file_type": "code",
+      "source_file": "frontend/src/App.test.jsx",
+      "source_location": "L7",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_adminlogin",
+      "label": "AdminLogin.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/AdminLogin.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_adminlogin_adminlogin",
+      "label": "AdminLogin()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/AdminLogin.jsx",
+      "source_location": "L9",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_adminlogin_adminlogin_handlesubmit",
+      "label": "handleSubmit()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/AdminLogin.jsx",
+      "source_location": "L15",
+      "_callable": true,
+      "_origin": "ast"
     },
     {
       "id": "frontend_src_components_header",
@@ -398,6 +517,144 @@
       "community": 0
     },
     {
+      "id": "frontend_src_components_submissiondashboard",
+      "label": "SubmissionDashboard.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/SubmissionDashboard.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_submissiondashboard_formatdate",
+      "label": "formatDate()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/SubmissionDashboard.jsx",
+      "source_location": "L9",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_submissiondashboard_submissiondashboard",
+      "label": "SubmissionDashboard()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/SubmissionDashboard.jsx",
+      "source_location": "L16",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_submissiondashboard_submissiondashboard_refresh",
+      "label": "refresh()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/SubmissionDashboard.jsx",
+      "source_location": "L36",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_submissiondashboard_submissiondashboard_handlesave",
+      "label": "handleSave()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/SubmissionDashboard.jsx",
+      "source_location": "L41",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_submissiondashboard_submissiondashboard_handledelete",
+      "label": "handleDelete()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/SubmissionDashboard.jsx",
+      "source_location": "L55",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_submissiondashboard_test",
+      "label": "SubmissionDashboard.test.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/SubmissionDashboard.test.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_submissiondashboard_test_row",
+      "label": "row",
+      "file_type": "code",
+      "source_file": "frontend/src/components/SubmissionDashboard.test.jsx",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_submissiondashboard_test_createstorageapi",
+      "label": "createStorageApi()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/SubmissionDashboard.test.jsx",
+      "source_location": "L13",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_submissioneditor",
+      "label": "SubmissionEditor.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/SubmissionEditor.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_submissioneditor_submissioneditor",
+      "label": "SubmissionEditor()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/SubmissionEditor.jsx",
+      "source_location": "L6",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_submissioneditor_submissioneditor_handlekeydown",
+      "label": "handleKeyDown()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/SubmissionEditor.jsx",
+      "source_location": "L21",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_submissioneditor_submissioneditor_handlechange",
+      "label": "handleChange()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/SubmissionEditor.jsx",
+      "source_location": "L44",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_submissioneditor_submissioneditor_handlesubmit",
+      "label": "handleSubmit()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/SubmissionEditor.jsx",
+      "source_location": "L56",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_submissioneditor_test",
+      "label": "SubmissionEditor.test.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/SubmissionEditor.test.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_submissioneditor_test_submission",
+      "label": "submission",
+      "file_type": "code",
+      "source_file": "frontend/src/components/SubmissionEditor.test.jsx",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
       "id": "frontend_src_main",
       "label": "main.jsx",
       "file_type": "code",
@@ -405,6 +662,40 @@
       "source_location": "L1",
       "_origin": "ast",
       "community": 6
+    },
+    {
+      "id": "frontend_src_pages_adminpage",
+      "label": "AdminPage.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/pages/AdminPage.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_pages_adminpage_adminpage",
+      "label": "AdminPage()",
+      "file_type": "code",
+      "source_file": "frontend/src/pages/AdminPage.jsx",
+      "source_location": "L7",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_pages_adminpage_test",
+      "label": "AdminPage.test.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/pages/AdminPage.test.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_pages_adminpage_test_renderadminpage",
+      "label": "renderAdminPage()",
+      "file_type": "code",
+      "source_file": "frontend/src/pages/AdminPage.test.jsx",
+      "source_location": "L16",
+      "_callable": true,
+      "_origin": "ast"
     },
     {
       "id": "frontend_src_pages_applypage",
@@ -453,7 +744,7 @@
       "label": "handleChange()",
       "file_type": "code",
       "source_file": "frontend/src/pages/ApplyPage.jsx",
-      "source_location": "L56",
+      "source_location": "L57",
       "_callable": true,
       "_origin": "ast"
     },
@@ -462,7 +753,7 @@
       "label": "handleSubmit()",
       "file_type": "code",
       "source_file": "frontend/src/pages/ApplyPage.jsx",
-      "source_location": "L69",
+      "source_location": "L70",
       "_callable": true,
       "_origin": "ast"
     },
@@ -534,10 +825,80 @@
       "label": "renderLandingPage()",
       "file_type": "code",
       "source_file": "frontend/src/pages/LandingPage.test.jsx",
-      "source_location": "L8",
+      "source_location": "L9",
       "_callable": true,
       "_origin": "ast",
       "community": 0
+    },
+    {
+      "id": "frontend_src_storage_adminsession",
+      "label": "adminSession.js",
+      "file_type": "code",
+      "source_file": "frontend/src/storage/adminSession.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_storage_adminsession_resolvesessionstorage",
+      "label": "resolveSessionStorage()",
+      "file_type": "code",
+      "source_file": "frontend/src/storage/adminSession.js",
+      "source_location": "L6",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_storage_adminsession_isdemoadminauthenticated",
+      "label": "isDemoAdminAuthenticated()",
+      "file_type": "code",
+      "source_file": "frontend/src/storage/adminSession.js",
+      "source_location": "L16",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_storage_adminsession_logindemoadmin",
+      "label": "loginDemoAdmin()",
+      "file_type": "code",
+      "source_file": "frontend/src/storage/adminSession.js",
+      "source_location": "L27",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_storage_adminsession_logoutdemoadmin",
+      "label": "logoutDemoAdmin()",
+      "file_type": "code",
+      "source_file": "frontend/src/storage/adminSession.js",
+      "source_location": "L40",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_storage_adminsession_getdemosessionkey",
+      "label": "getDemoSessionKey()",
+      "file_type": "code",
+      "source_file": "frontend/src/storage/adminSession.js",
+      "source_location": "L52",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_storage_adminsession_test",
+      "label": "adminSession.test.js",
+      "file_type": "code",
+      "source_file": "frontend/src/storage/adminSession.test.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_storage_adminsession_test_createsessionstorage",
+      "label": "createSessionStorage()",
+      "file_type": "code",
+      "source_file": "frontend/src/storage/adminSession.test.js",
+      "source_location": "L10",
+      "_callable": true,
+      "_origin": "ast"
     },
     {
       "id": "frontend_src_storage_submissions",
@@ -783,6 +1144,48 @@
   ],
   "links": [
     {
+      "source": "frontend_e2e_admin_access_spec",
+      "target": "ref_playwright_test",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/admin-access.spec.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_admin_access_spec",
+      "target": "frontend_e2e_admin_access_spec_browsererrors",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/admin-access.spec.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_admin_submissions_spec",
+      "target": "ref_playwright_test",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/admin-submissions.spec.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_admin_submissions_spec",
+      "target": "frontend_e2e_admin_submissions_spec_browsererrors",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/admin-submissions.spec.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "frontend_e2e_apply_spec",
       "target": "ref_playwright_test",
       "relation": "imports_from",
@@ -794,6 +1197,16 @@
       "_origin": "ast"
     },
     {
+      "source": "frontend_e2e_apply_spec",
+      "target": "frontend_e2e_apply_spec_browsererrors",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/apply.spec.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "frontend_e2e_landing_spec",
       "target": "ref_playwright_test",
       "relation": "imports_from",
@@ -801,6 +1214,16 @@
       "confidence": "EXTRACTED",
       "source_file": "frontend/e2e/landing.spec.ts",
       "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_landing_spec",
+      "target": "frontend_e2e_landing_spec_browsererrors",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/landing.spec.ts",
+      "source_location": "L3",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1179,7 +1602,7 @@
     },
     {
       "source": "frontend_src_app",
-      "target": "ref_react_router_dom",
+      "target": "ref_react",
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -1190,7 +1613,7 @@
     },
     {
       "source": "frontend_src_app",
-      "target": "frontend_src_components_header",
+      "target": "ref_react_router_dom",
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -1201,7 +1624,7 @@
     },
     {
       "source": "frontend_src_app",
-      "target": "frontend_src_pages_landingpage",
+      "target": "frontend_src_components_header",
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -1212,11 +1635,237 @@
     },
     {
       "source": "frontend_src_app",
+      "target": "frontend_src_pages_landingpage",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app",
+      "target": "frontend_src_pages_applypage",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app",
+      "target": "frontend_src_pages_adminpage",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app",
+      "target": "frontend_src_storage_adminsession",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app",
+      "target": "frontend_src_storage_adminsession_isdemoadminauthenticated",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app",
+      "target": "frontend_src_storage_adminsession_logoutdemoadmin",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app",
+      "target": "frontend_src_app_approutes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_approutes",
+      "target": "frontend_src_app_approutes_handlelogout",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app",
       "target": "frontend_src_app_app",
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/App.jsx",
-      "source_location": "L6",
+      "source_location": "L48",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_app",
+      "target": "frontend_src_app_approutes",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L51",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_test",
+      "target": "ref_testing_library_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.test.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_test",
+      "target": "ref_testing_library_user_event",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.test.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_test",
+      "target": "ref_vitest",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.test.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_test",
+      "target": "frontend_src_app",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.test.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_test",
+      "target": "frontend_src_app_test_renderapplication",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.test.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_test",
+      "target": "frontend_src_app_test_renderapplication",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.test.jsx",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_adminlogin",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AdminLogin.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_adminlogin",
+      "target": "ref_prop_types",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AdminLogin.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_adminlogin",
+      "target": "frontend_src_storage_adminsession",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AdminLogin.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_adminlogin",
+      "target": "frontend_src_storage_adminsession_logindemoadmin",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AdminLogin.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_adminlogin",
+      "target": "frontend_src_components_adminlogin_adminlogin",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AdminLogin.jsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_adminlogin_adminlogin",
+      "target": "frontend_src_components_adminlogin_adminlogin_handlesubmit",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AdminLogin.jsx",
+      "source_location": "L15",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1263,6 +1912,413 @@
       "_origin": "ast"
     },
     {
+      "source": "frontend_src_components_submissiondashboard",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionDashboard.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissiondashboard",
+      "target": "ref_prop_types",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionDashboard.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissiondashboard",
+      "target": "frontend_src_storage_submissions",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionDashboard.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissiondashboard",
+      "target": "frontend_src_storage_submissions_deletesubmission",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionDashboard.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissiondashboard",
+      "target": "frontend_src_storage_submissions_readsubmissions",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionDashboard.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissiondashboard",
+      "target": "frontend_src_storage_submissions_updatesubmission",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionDashboard.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissiondashboard",
+      "target": "frontend_src_components_submissioneditor",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionDashboard.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissiondashboard",
+      "target": "frontend_src_components_submissiondashboard_formatdate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionDashboard.jsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissiondashboard",
+      "target": "frontend_src_components_submissiondashboard_submissiondashboard",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionDashboard.jsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissiondashboard_submissiondashboard",
+      "target": "frontend_src_components_submissiondashboard_submissiondashboard_refresh",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionDashboard.jsx",
+      "source_location": "L36",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissiondashboard_submissiondashboard",
+      "target": "frontend_src_components_submissiondashboard_submissiondashboard_handlesave",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionDashboard.jsx",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissiondashboard_submissiondashboard",
+      "target": "frontend_src_components_submissiondashboard_submissiondashboard_handledelete",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionDashboard.jsx",
+      "source_location": "L55",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissiondashboard_submissiondashboard",
+      "target": "frontend_src_components_submissiondashboard_formatdate",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionDashboard.jsx",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissiondashboard_submissiondashboard",
+      "target": "frontend_src_components_submissiondashboard_submissiondashboard_handledelete",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionDashboard.jsx",
+      "source_location": "L118",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissiondashboard_submissiondashboard_handlesave",
+      "target": "frontend_src_components_submissiondashboard_submissiondashboard_refresh",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionDashboard.jsx",
+      "source_location": "L51",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissiondashboard_submissiondashboard_handledelete",
+      "target": "frontend_src_components_submissiondashboard_submissiondashboard_refresh",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionDashboard.jsx",
+      "source_location": "L66",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissiondashboard_test",
+      "target": "ref_testing_library_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionDashboard.test.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissiondashboard_test",
+      "target": "ref_testing_library_user_event",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionDashboard.test.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissiondashboard_test",
+      "target": "ref_vitest",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionDashboard.test.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissiondashboard_test",
+      "target": "frontend_src_components_submissiondashboard",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionDashboard.test.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissiondashboard_test",
+      "target": "frontend_src_components_submissiondashboard_test_row",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionDashboard.test.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissiondashboard_test",
+      "target": "frontend_src_components_submissiondashboard_test_createstorageapi",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionDashboard.test.jsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissiondashboard_test",
+      "target": "frontend_src_components_submissiondashboard_test_createstorageapi",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionDashboard.test.jsx",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissioneditor",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionEditor.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissioneditor",
+      "target": "ref_prop_types",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionEditor.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissioneditor",
+      "target": "frontend_src_validation_submission",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionEditor.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissioneditor",
+      "target": "frontend_src_validation_submission_departments",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionEditor.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissioneditor",
+      "target": "frontend_src_validation_submission_validatesubmission",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionEditor.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissioneditor",
+      "target": "frontend_src_components_submissioneditor_submissioneditor",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionEditor.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissioneditor_submissioneditor",
+      "target": "frontend_src_components_submissioneditor_submissioneditor_handlekeydown",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionEditor.jsx",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissioneditor_submissioneditor",
+      "target": "frontend_src_components_submissioneditor_submissioneditor_handlechange",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionEditor.jsx",
+      "source_location": "L44",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissioneditor_submissioneditor",
+      "target": "frontend_src_components_submissioneditor_submissioneditor_handlesubmit",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionEditor.jsx",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissioneditor_submissioneditor",
+      "target": "frontend_src_components_submissioneditor_submissioneditor_handlekeydown",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "frontend/src/components/SubmissionEditor.jsx",
+      "source_location": "L35",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissioneditor_test",
+      "target": "ref_testing_library_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionEditor.test.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissioneditor_test",
+      "target": "ref_testing_library_user_event",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionEditor.test.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissioneditor_test",
+      "target": "ref_vitest",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionEditor.test.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissioneditor_test",
+      "target": "frontend_src_components_submissioneditor",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionEditor.test.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissioneditor_test",
+      "target": "frontend_src_components_submissioneditor_test_submission",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionEditor.test.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "frontend_src_main",
       "target": "ref_react",
       "relation": "imports_from",
@@ -1303,6 +2359,180 @@
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/main.jsx",
       "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_pages_adminpage",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/AdminPage.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_pages_adminpage",
+      "target": "frontend_src_components_adminlogin",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/AdminPage.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_pages_adminpage",
+      "target": "frontend_src_components_submissiondashboard",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/AdminPage.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_pages_adminpage",
+      "target": "frontend_src_storage_adminsession",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/AdminPage.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_pages_adminpage",
+      "target": "frontend_src_storage_adminsession_isdemoadminauthenticated",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/AdminPage.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_pages_adminpage",
+      "target": "frontend_src_pages_adminpage_adminpage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/AdminPage.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_pages_adminpage_test",
+      "target": "ref_testing_library_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/AdminPage.test.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_pages_adminpage_test",
+      "target": "ref_testing_library_user_event",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/AdminPage.test.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_pages_adminpage_test",
+      "target": "ref_react_router_dom",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/AdminPage.test.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_pages_adminpage_test",
+      "target": "ref_vitest",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/AdminPage.test.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_pages_adminpage_test",
+      "target": "frontend_src_pages_adminpage",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/AdminPage.test.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_pages_adminpage_test",
+      "target": "frontend_src_storage_adminsession",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/AdminPage.test.jsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_pages_adminpage_test",
+      "target": "frontend_src_storage_adminsession_isdemoadminauthenticated",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/AdminPage.test.jsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_pages_adminpage_test",
+      "target": "frontend_src_storage_adminsession_logindemoadmin",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/AdminPage.test.jsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_pages_adminpage_test",
+      "target": "frontend_src_pages_adminpage_test_renderadminpage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/AdminPage.test.jsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_pages_adminpage_test",
+      "target": "frontend_src_pages_adminpage_test_renderadminpage",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/AdminPage.test.jsx",
+      "source_location": "L35",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1440,7 +2670,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/pages/ApplyPage.jsx",
-      "source_location": "L56",
+      "source_location": "L57",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1450,7 +2680,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/pages/ApplyPage.jsx",
-      "source_location": "L69",
+      "source_location": "L70",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1461,7 +2691,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/pages/ApplyPage.jsx",
-      "source_location": "L123",
+      "source_location": "L124",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1661,7 +2891,7 @@
     },
     {
       "source": "frontend_src_pages_landingpage_test",
-      "target": "frontend_src_pages_landingpage",
+      "target": "frontend_src_app",
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -1672,11 +2902,22 @@
     },
     {
       "source": "frontend_src_pages_landingpage_test",
+      "target": "frontend_src_pages_landingpage",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/LandingPage.test.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_pages_landingpage_test",
       "target": "frontend_src_pages_landingpage_test_renderlandingpage",
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/pages/LandingPage.test.jsx",
-      "source_location": "L8",
+      "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1687,7 +2928,177 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/pages/LandingPage.test.jsx",
-      "source_location": "L18",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_storage_adminsession",
+      "target": "frontend_src_storage_adminsession_resolvesessionstorage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/storage/adminSession.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_storage_adminsession",
+      "target": "frontend_src_storage_adminsession_isdemoadminauthenticated",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/storage/adminSession.js",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_storage_adminsession",
+      "target": "frontend_src_storage_adminsession_logindemoadmin",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/storage/adminSession.js",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_storage_adminsession",
+      "target": "frontend_src_storage_adminsession_logoutdemoadmin",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/storage/adminSession.js",
+      "source_location": "L40",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_storage_adminsession",
+      "target": "frontend_src_storage_adminsession_getdemosessionkey",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/storage/adminSession.js",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_storage_adminsession_isdemoadminauthenticated",
+      "target": "frontend_src_storage_adminsession_resolvesessionstorage",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/storage/adminSession.js",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_storage_adminsession_logindemoadmin",
+      "target": "frontend_src_storage_adminsession_resolvesessionstorage",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/storage/adminSession.js",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_storage_adminsession_logoutdemoadmin",
+      "target": "frontend_src_storage_adminsession_resolvesessionstorage",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/storage/adminSession.js",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_storage_adminsession_test",
+      "target": "ref_vitest",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/storage/adminSession.test.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_storage_adminsession_test",
+      "target": "frontend_src_storage_adminsession",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/storage/adminSession.test.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_storage_adminsession_test",
+      "target": "frontend_src_storage_adminsession_getdemosessionkey",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/storage/adminSession.test.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_storage_adminsession_test",
+      "target": "frontend_src_storage_adminsession_isdemoadminauthenticated",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/storage/adminSession.test.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_storage_adminsession_test",
+      "target": "frontend_src_storage_adminsession_logindemoadmin",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/storage/adminSession.test.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_storage_adminsession_test",
+      "target": "frontend_src_storage_adminsession_logoutdemoadmin",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/storage/adminSession.test.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_storage_adminsession_test",
+      "target": "frontend_src_storage_adminsession_test_createsessionstorage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/storage/adminSession.test.js",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_storage_adminsession_test",
+      "target": "frontend_src_storage_adminsession_test_createsessionstorage",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/storage/adminSession.test.js",
+      "source_location": "L23",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -2424,7 +3835,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/App.jsx",
-      "source_location": "L2",
+      "source_location": "L3",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -2435,7 +3846,73 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/App.jsx",
-      "source_location": "L3",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app",
+      "target": "frontend_src_pages_applypage_applypage",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app",
+      "target": "frontend_src_pages_adminpage_adminpage",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_test",
+      "target": "frontend_src_app_app",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.test.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissiondashboard",
+      "target": "frontend_src_components_submissioneditor_submissioneditor",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionDashboard.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissiondashboard_test",
+      "target": "frontend_src_components_submissiondashboard_submissiondashboard",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionDashboard.test.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissioneditor_test",
+      "target": "frontend_src_components_submissioneditor_submissioneditor",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionEditor.test.jsx",
+      "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -2447,6 +3924,39 @@
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/main.jsx",
       "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_pages_adminpage",
+      "target": "frontend_src_components_adminlogin_adminlogin",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/AdminPage.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_pages_adminpage",
+      "target": "frontend_src_components_submissiondashboard_submissiondashboard",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/AdminPage.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_pages_adminpage_test",
+      "target": "frontend_src_pages_adminpage_adminpage",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/AdminPage.test.jsx",
+      "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -2463,7 +3973,7 @@
     },
     {
       "source": "frontend_src_pages_landingpage_test",
-      "target": "frontend_src_pages_landingpage_landingpage",
+      "target": "frontend_src_app_app",
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -2473,24 +3983,68 @@
       "_origin": "ast"
     },
     {
-      "source": "frontend_src_pages_applypage_applypage",
-      "target": "frontend_src_validation_submission_validatesubmission",
-      "relation": "calls",
-      "context": "call",
+      "source": "frontend_src_pages_landingpage_test",
+      "target": "frontend_src_pages_landingpage_landingpage",
+      "relation": "imports",
+      "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "frontend/src/pages/ApplyPage.jsx",
-      "source_location": "L76",
+      "source_file": "frontend/src/pages/LandingPage.test.jsx",
+      "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast"
     },
     {
-      "source": "frontend_src_pages_applypage_applypage",
-      "target": "frontend_src_storage_submissions_createsubmission",
+      "source": "frontend_src_app_approutes",
+      "target": "frontend_src_storage_adminsession_isdemoadminauthenticated",
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "frontend/src/pages/ApplyPage.jsx",
-      "source_location": "L84",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_approutes",
+      "target": "frontend_src_storage_adminsession_logoutdemoadmin",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_adminlogin_adminlogin",
+      "target": "frontend_src_storage_adminsession_logindemoadmin",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AdminLogin.jsx",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissioneditor_submissioneditor",
+      "target": "frontend_src_validation_submission_validatesubmission",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/SubmissionEditor.jsx",
+      "source_location": "L58",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_pages_adminpage_adminpage",
+      "target": "frontend_src_storage_adminsession_isdemoadminauthenticated",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/AdminPage.jsx",
+      "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -2501,7 +4055,29 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/pages/ApplyPage.jsx",
-      "source_location": "L104",
+      "source_location": "L47",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_pages_applypage_applypage",
+      "target": "frontend_src_validation_submission_validatesubmission",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/ApplyPage.jsx",
+      "source_location": "L77",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_pages_applypage_applypage",
+      "target": "frontend_src_storage_submissions_createsubmission",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/ApplyPage.jsx",
+      "source_location": "L85",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -2561,26 +4137,158 @@
       "_origin": "ast"
     },
     {
-      "source": "frontend_src_app_app",
+      "source": "frontend_src_app_approutes",
       "target": "frontend_src_components_header_header",
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "frontend/src/App.jsx",
-      "source_location": "L10",
+      "source_location": "L28",
       "weight": 1.0,
       "_origin": "ast"
     },
     {
-      "source": "frontend_src_app_app",
+      "source": "frontend_src_app_approutes",
       "target": "frontend_src_pages_landingpage_landingpage",
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "frontend/src/App.jsx",
-      "source_location": "L13",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_approutes",
+      "target": "frontend_src_pages_applypage_applypage",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_approutes",
+      "target": "frontend_src_pages_adminpage_adminpage",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L35",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_approutes_handlelogout",
+      "target": "frontend_src_storage_adminsession_logoutdemoadmin",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_test_renderapplication",
+      "target": "frontend_src_app_app",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/App.test.jsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_adminlogin_adminlogin_handlesubmit",
+      "target": "frontend_src_storage_adminsession_logindemoadmin",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/components/AdminLogin.jsx",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissiondashboard_submissiondashboard",
+      "target": "frontend_src_components_submissioneditor_submissioneditor",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/components/SubmissionDashboard.jsx",
+      "source_location": "L134",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_submissioneditor_submissioneditor_handlesubmit",
+      "target": "frontend_src_validation_submission_validatesubmission",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/components/SubmissionEditor.jsx",
+      "source_location": "L58",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_pages_adminpage_adminpage",
+      "target": "frontend_src_components_adminlogin_adminlogin",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/pages/AdminPage.jsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_pages_adminpage_adminpage",
+      "target": "frontend_src_components_submissiondashboard_submissiondashboard",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/pages/AdminPage.jsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_pages_adminpage_test_renderadminpage",
+      "target": "frontend_src_pages_adminpage_adminpage",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/pages/AdminPage.test.jsx",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_pages_adminpage_test",
+      "target": "frontend_src_storage_adminsession_logindemoadmin",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "frontend/src/pages/AdminPage.test.jsx",
+      "source_location": "L55",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -2592,7 +4300,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "frontend/src/pages/ApplyPage.jsx",
-      "source_location": "L76",
+      "source_location": "L77",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -2604,7 +4312,19 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "frontend/src/pages/ApplyPage.jsx",
-      "source_location": "L84",
+      "source_location": "L85",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_pages_applypage_applypage_handlesubmit",
+      "target": "frontend_src_storage_submissions_readsubmissions",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/pages/ApplyPage.jsx",
+      "source_location": "L86",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -2640,7 +4360,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "frontend/src/pages/LandingPage.test.jsx",
-      "source_location": "L11",
+      "source_location": "L12",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -2670,10 +4390,10 @@
     }
   ],
   "metadata": {
-    "built_at": "2026-10-26T09:31:11.855027+00:00",
+    "built_at": "2026-10-26T10:37:18.392605+00:00",
     "version": "graph_update-v1",
     "codebase_root": "C:\\artifacts-v2\\T0132PcJVCRTV000426102606573160\\developer",
     "force": true,
-    "files_scanned": 18
+    "files_scanned": 30
   }
 }
