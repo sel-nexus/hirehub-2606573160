@@ -98,6 +98,9 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .next-step { width: calc(100% - 36px); align-items: flex-start; flex-direction: column; margin-bottom: 44px; padding: 25px 22px; }
   .next-step .button { width: 100%; }
   .route-placeholder { width: calc(100% - 36px); padding-top: 56px; }
+  .apply-page { min-height: calc(100vh - 60px); padding: 28px 18px 44px; }
+  .apply-card { padding: 20px; }
+  .apply-card h1 { font-size: 27px; }
 }
 
 @media (max-width: 370px) {

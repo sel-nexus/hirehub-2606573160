@@ -11,7 +11,7 @@ export default function App() {
         <main id="main-content">
           <Routes>
             <Route path="/" element={<LandingPage />} />
-            <Route path="/apply" element={<main className="route-placeholder"><h1>Join Our Team</h1><p>The interest form is being prepared.</p></main>} />
+            <Route path="/apply" element={<ApplyPage />} />
             <Route path="/admin" element={<main className="route-placeholder"><h1>Admin Login</h1><p>The demo administrator area is being prepared.</p></main>} />
             <Route path="*" element={<main className="route-placeholder"><h1>Page not found</h1><a href="/">Return home</a></main>} />
           </Routes>
