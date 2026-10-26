@@ -3,7 +3,7 @@ import userEvent from '@testing-library/user-event';
 import { MemoryRouter } from 'react-router-dom';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 import ApplyPage from './ApplyPage.jsx';
-import { createSubmission } from '../storage/submissions.js';
+import { createSubmission, readSubmissions } from '../storage/submissions.js';
 
 vi.mock('../storage/submissions.js', () => ({
   createSubmission: vi.fn(),
@@ -133,5 +133,19 @@ describe('candidate interest form', () => {
     expect(screen.getByText('Your application could not be saved. Check your browser storage and try again.')).toBeVisible();
     expect(screen.queryByText('Thank you! Your interest has been submitted successfully.')).not.toBeInTheDocument();
     expect(screen.getByLabelText('Full Name')).toHaveValue('Jordan Lee');
+  });
+
+  it('reports failed malformed-data repair without claiming the data was reset', () => {
+    readSubmissions.mockReturnValue({
+      records: [],
+      warnings: [{ code: 'INVALID_STORED_DATA', count: 0 }],
+      error: 'STORAGE_WRITE_FAILED',
+    });
+    renderApplyPage();
+
+    expect(screen.getByRole('status')).toHaveTextContent(
+      'Existing browser data is unreadable and could not be reset because browser storage is unavailable. Your details will not be submitted.',
+    );
+    expect(screen.queryByText('Existing browser data was unreadable and has been reset. You can submit again.')).not.toBeInTheDocument();
   });
 });

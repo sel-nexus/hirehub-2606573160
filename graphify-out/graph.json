@@ -2691,7 +2691,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/pages/ApplyPage.jsx",
-      "source_location": "L124",
+      "source_location": "L133",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -2764,6 +2764,17 @@
     {
       "source": "frontend_src_pages_applypage_test",
       "target": "frontend_src_storage_submissions_createsubmission",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/ApplyPage.test.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_pages_applypage_test",
+      "target": "frontend_src_storage_submissions_readsubmissions",
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -4390,7 +4401,7 @@
     }
   ],
   "metadata": {
-    "built_at": "2026-10-26T10:43:34.008421+00:00",
+    "built_at": "2026-10-26T10:57:59.117841+00:00",
     "version": "graph_update-v1",
     "codebase_root": "C:\\artifacts-v2\\T0132PcJVCRTV000426102606573160\\developer",
     "force": true,

@@ -103,9 +103,14 @@ export default function ApplyPage() {
     }, 4000);
   }
 
-  const warningText = storageState.reset || storageState.warnings.some((warning) => warning.code === 'INVALID_STORED_DATA')
-    ? 'Existing browser data was unreadable and has been reset. You can submit again.'
-    : storageState.error ? 'Browser storage is unavailable. Your details will not be submitted.' : null;
+  const invalidStoredData = storageState.warnings.some((warning) => warning.code === 'INVALID_STORED_DATA');
+  const warningText = storageState.error
+    ? storageState.error === 'STORAGE_WRITE_FAILED' && invalidStoredData
+      ? 'Existing browser data is unreadable and could not be reset because browser storage is unavailable. Your details will not be submitted.'
+      : 'Browser storage is unavailable. Your details will not be submitted.'
+    : storageState.reset || invalidStoredData
+      ? 'Existing browser data was unreadable and has been reset. You can submit again.'
+      : null;
 
   return (
     <section className="apply-page" aria-labelledby="apply-title">
@@ -115,7 +120,11 @@ export default function ApplyPage() {
         <p className="apply-subtitle">Express your interest in working with us.</p>
         {warningText && <p className="form-notice form-notice--warning" role="status">{warningText}</p>}
         {message && (
-          <p className={`form-notice form-notice--${message.kind}`} role={message.kind === 'error' ? 'alert' : 'status'} aria-live={message.kind === 'error' ? 'assertive' : 'polite'}>
+          <p
+            className={`form-notice form-notice--${message.kind}`}
+            role={message.kind === 'error' ? 'alert' : 'status'}
+            aria-live={message.kind === 'error' ? 'assertive' : 'polite'}
+          >
             {message.text}
           </p>
         )}

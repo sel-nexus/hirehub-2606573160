@@ -55,4 +55,4 @@ The production build creates `frontend/dist/`. Browser storage has no server-sid
 
 ## Verification status
 
-The Developer stage test evidence is in `test_report.yaml`. In the final verification, 59 Vitest unit/component tests passed, 8 Playwright E2E tests passed, and the Vite production build passed. The critic review passed at score 1.00 with zero high-severity failures. AWS deployment, production-path performance targets, and the Docker image build were not executed in this local verification.
+The Developer stage test evidence is in `test_report.yaml`. In the final verification, 60 Vitest unit/component tests passed, 8 Playwright E2E tests passed, and the Vite production build passed. The final critic review passed at score 1.00 with zero high-severity failures. AWS deployment, production-path performance targets, and the Docker image build were not executed in this local verification.
