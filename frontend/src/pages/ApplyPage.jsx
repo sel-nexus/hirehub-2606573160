@@ -44,6 +44,7 @@ export default function ApplyPage() {
   const [draft, setDraft] = useState(emptyDraft);
   const [errors, setErrors] = useState({});
   const [message, setMessage] = useState(null);
+  const [storageState, setStorageState] = useState(() => readSubmissions());
   const successTimer = useRef(null);
 
   useEffect(() => () => {
@@ -82,6 +83,7 @@ export default function ApplyPage() {
     }
 
     const result = createSubmission(draft);
+    setStorageState(readSubmissions());
     if (!result.ok) {
       if (result.code === 'DUPLICATE_EMAIL') {
         setErrors({ email: DUPLICATE_MESSAGE });
@@ -101,8 +103,7 @@ export default function ApplyPage() {
     }, 4000);
   }
 
-  const storageState = readSubmissions();
-  const warningText = storageState.warnings.some((warning) => warning.code === 'INVALID_STORED_DATA')
+  const warningText = storageState.reset || storageState.warnings.some((warning) => warning.code === 'INVALID_STORED_DATA')
     ? 'Existing browser data was unreadable and has been reset. You can submit again.'
     : storageState.error ? 'Browser storage is unavailable. Your details will not be submitted.' : null;
 

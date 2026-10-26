@@ -10,10 +10,15 @@ import { isDemoAdminAuthenticated, logoutDemoAdmin } from './storage/adminSessio
 function AppRoutes() {
   const navigate = useNavigate();
   const [authenticated, setAuthenticated] = useState(() => isDemoAdminAuthenticated());
+  const [sessionNotice, setSessionNotice] = useState('');
 
   /** End the demo session and return to the public landing route. */
   function handleLogout() {
-    logoutDemoAdmin();
+    if (!logoutDemoAdmin()) {
+      setSessionNotice('Could not end the demo session because browser storage is unavailable.');
+      return;
+    }
+    setSessionNotice('');
     setAuthenticated(false);
     navigate('/');
   }
@@ -22,6 +27,7 @@ function AppRoutes() {
     <div className="app-shell">
       <Header authenticated={authenticated} onLogout={handleLogout} />
       <main id="main-content">
+        {sessionNotice && <p className="form-notice form-notice--error session-notice" role="status">{sessionNotice}</p>}
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/apply" element={<ApplyPage />} />

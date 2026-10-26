@@ -2,6 +2,7 @@ import { render, screen, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { MemoryRouter } from 'react-router-dom';
 import { describe, expect, it } from 'vitest';
+import App from '../App.jsx';
 import LandingPage from './LandingPage.jsx';
 
 /** Render a landing page with an isolated in-memory route history. */
@@ -50,5 +51,19 @@ describe('HireHub landing page', () => {
     renderLandingPage();
     expect(document.querySelector('.culture-grid')).toBeInTheDocument();
     expect(document.querySelector('.culture-section')).toHaveAttribute('aria-labelledby', 'culture-title');
+  });
+
+  it('shows not-found content instead of landing content on an unknown route', () => {
+    window.history.replaceState(window.history.state, '', '/not-a-hirehub-route');
+    const { unmount } = render(<App />);
+
+    try {
+      expect(screen.getByRole('heading', { name: 'Page not found' })).toBeVisible();
+      expect(screen.queryByRole('heading', { name: 'Build Your Future With Us' })).not.toBeInTheDocument();
+      expect(screen.queryByRole('link', { name: 'Express Your Interest' })).not.toBeInTheDocument();
+    } finally {
+      unmount();
+      window.history.replaceState(window.history.state, '', '/');
+    }
   });
 });

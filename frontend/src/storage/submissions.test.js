@@ -124,6 +124,33 @@ describe('browser-local submission storage', () => {
     expect(deleteSubmission(original.id, storage)).toEqual({ ok: false, code: 'NOT_FOUND', records: [] });
   });
 
+  it('does not delete or change stored records when reading storage fails', () => {
+    const storedValue = JSON.stringify([original]);
+    const storage = createMemoryStorage(storedValue);
+    storage.getItem.mockImplementation(() => { throw new Error('browser details'); });
+
+    expect(deleteSubmission(original.id, storage)).toEqual({
+      ok: false,
+      code: 'STORAGE_READ_FAILED',
+      records: [],
+    });
+    expect(storage.read()).toBe(storedValue);
+    expect(storage.setItem).not.toHaveBeenCalled();
+  });
+
+  it('does not claim deletion or change stored records when writing fails', () => {
+    const storedValue = JSON.stringify([original]);
+    const storage = createMemoryStorage(storedValue);
+    storage.setItem.mockImplementation(() => { throw new Error('quota'); });
+
+    expect(deleteSubmission(original.id, storage)).toEqual({
+      ok: false,
+      code: 'STORAGE_WRITE_FAILED',
+      records: [original],
+    });
+    expect(storage.read()).toBe(storedValue);
+  });
+
   it('does not claim success or replace visible records when writes fail', () => {
     const storage = createMemoryStorage(JSON.stringify([original]));
     storage.setItem.mockImplementation(() => { throw new Error('quota'); });

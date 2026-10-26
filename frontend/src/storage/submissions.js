@@ -50,7 +50,7 @@ function readFromStorage(storage) {
   if (!Array.isArray(parsed)) {
     try {
       storage.setItem(STORAGE_KEY, '[]');
-      return { records: [], warnings: [{ code: 'INVALID_STORED_DATA', count: 0 }] };
+      return { records: [], warnings: [{ code: 'INVALID_STORED_DATA', count: 0 }], reset: true };
     } catch {
       return {
         records: [],
